@@ -1,0 +1,15 @@
+E:\GB\4. Final\Specialization\Choice_specialization\obj\Debug\net6.0\Choice_specialization.csproj.AssemblyReference.cache
+E:\GB\4. Final\Specialization\Choice_specialization\obj\Debug\net6.0\Choice_specialization.GeneratedMSBuildEditorConfig.editorconfig
+E:\GB\4. Final\Specialization\Choice_specialization\obj\Debug\net6.0\Choice_specialization.AssemblyInfoInputs.cache
+E:\GB\4. Final\Specialization\Choice_specialization\obj\Debug\net6.0\Choice_specialization.AssemblyInfo.cs
+E:\GB\4. Final\Specialization\Choice_specialization\obj\Debug\net6.0\Choice_specialization.csproj.CoreCompileInputs.cache
+E:\GB\4. Final\Specialization\Choice_specialization\bin\Debug\net6.0\Choice_specialization.exe
+E:\GB\4. Final\Specialization\Choice_specialization\bin\Debug\net6.0\Choice_specialization.deps.json
+E:\GB\4. Final\Specialization\Choice_specialization\bin\Debug\net6.0\Choice_specialization.runtimeconfig.json
+E:\GB\4. Final\Specialization\Choice_specialization\bin\Debug\net6.0\Choice_specialization.dll
+E:\GB\4. Final\Specialization\Choice_specialization\bin\Debug\net6.0\Choice_specialization.pdb
+E:\GB\4. Final\Specialization\Choice_specialization\obj\Debug\net6.0\Choice_specialization.dll
+E:\GB\4. Final\Specialization\Choice_specialization\obj\Debug\net6.0\refint\Choice_specialization.dll
+E:\GB\4. Final\Specialization\Choice_specialization\obj\Debug\net6.0\Choice_specialization.pdb
+E:\GB\4. Final\Specialization\Choice_specialization\obj\Debug\net6.0\Choice_specialization.genruntimeconfig.cache
+E:\GB\4. Final\Specialization\Choice_specialization\obj\Debug\net6.0\ref\Choice_specialization.dll
