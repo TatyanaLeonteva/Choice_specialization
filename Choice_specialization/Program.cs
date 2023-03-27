@@ -34,46 +34,40 @@ string[] CreateArray(int length)
 
 void PrintArray(string[] array)
 {
-    System.Console.WriteLine($"\nИсходный массив:");
     System.Console.Write($"[{string.Join(", ", array)}]");
    
+}
+
+string[] CheckElements(string[] array, int length, int numberSigns)
+{
+    int j = 0;
+    string[] arrayNew = new string[length];
+    
+    for(int i=0; i<array.Length; i++)
+    {
+        if(array[i].Length==numberSigns)
+        {
+            arrayNew[j]=array[i];
+            j++;
+        }
+    }
+    return arrayNew;
 }
 
 
 System.Console.Write("\nВведите кол-во элементов для проверки: ");
 int length = Convert.ToInt32(Console.ReadLine());
-// if (length<=0)
-// {
-//     System.Console.WriteLine($"\nОшибка! Кол-во элементов не может быть меньше 1.\n");
-//     return;
-// }
+if (length<=0)
+{
+    System.Console.WriteLine($"\nОшибка! Кол-во элементов не может быть меньше 1.\n");
+    return;
+}
 
-// int numberElements = 3;
+int numberSigns = 3;
 
-PrintArray(CreateArray(length));
+string[] array=CreateArray(length);
+System.Console.WriteLine($"\nИсходный массив:");
+PrintArray(array);
 
-
-
-
-
-// System.Console.Write($"\nРезультирующая матрица:");
-// PrintArrayMxN(MultiplicationMatrix(matrixA, matrixB));
-
-
-// int[,] MultiplicationMatrix(int[,] matrixA, int[,] matrixB)
-// {
-//     int[,] matrixMulty = new int[matrixA.GetLength(0), matrixB.GetLength(1)];
-
-//     for (int i = 0; i < matrixMulty.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < matrixMulty.GetLength(1); j++)
-//         {
-            
-//             for (int k = 0; k < matrixA.GetLength(1); k++)
-//             {
-//                 matrixMulty[i,j] = matrixMulty[i,j]  + matrixA[i, k] * matrixB[k, j];
-//             }
-//         }
-//     }
-//     return matrixMulty;
-// }
+System.Console.WriteLine($"\nМассив элементов, число символов которых = {numberSigns}:");
+PrintArray(CheckElements(array, length, numberSigns));
