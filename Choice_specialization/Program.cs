@@ -15,19 +15,13 @@
 // ["1234", "1567", "-2", "computer science"] -> ["-2"]
 // ["Russia", "Denmark", "Kazan"] ->
 
-// string Elements(string Els)
-// {
-//     Console.WriteLine(Els);
-//     return Console.ReadLine()?? String.Empty;
-// }
-
 string[] CreateArray(int length)
 {
     string[] array = new string[length];
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"Введите слово, цифры или символы №{i+1}:  ");
-        array[i] = Convert.ToString(Console.ReadLine());
+        array[i] = Convert.ToString(Console.ReadLine()?? String.Empty);
     }
     return array;
 }
@@ -45,7 +39,7 @@ string[] CheckElements(string[] array, int length, int numberSigns)
     
     for(int i=0; i<array.Length; i++)
     {
-        if(array[i].Length==numberSigns)
+        if(array[i].Length<=numberSigns)
         {
             arrayNew[j]=array[i];
             j++;
